@@ -1,39 +1,88 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" style="overflow-y: scroll;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lord of the Mysteries | Diseño 4D</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Lord of the Mysteries | Proyecto 4D</title>
+    
+    <!-- Fuentes (recomiendo estas para el estilo LOTM) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Lottie para animaciones -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+    <!-- Tus estilos -->
+    <link rel="stylesheet" href="css/lotm-styles.css">
 </head>
-<body>
-    <div class="loader">
-        <div class="loader-content">
-            <lottie-player src="assets/animations/loading-animation.json" background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
-            <img src="https://res.cloudinary.com/di4ckwvxe/image/upload/v1748185137/Site-logo_upscayl_5x_ultramix_balanced_af6qg0.png" alt="Lord of the Mysteries Logo" class="logo-loading">
-        </div>
+
+<body class="lotm-theme">
+    <!-- Animación de carga (mejorada) -->
+    <div id="splash" class="splash-screen">
+        <lottie-player 
+            src="assets/animations/old-book.json" 
+            background="transparent" 
+            speed="1" 
+            style="width: 200px; height: 200px;" 
+            loop 
+            autoplay>
+        </lottie-player>
+        <img src="assets/images/site-logo.png" alt="Lord of the Mysteries" class="splash-logo">
     </div>
 
-    <main class="hidden">
-        <header>
-            <nav>
-            </nav>
+    <!-- Contenido principal -->
+    <div id="wrap">
+        <header class="lotm-header">
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <img src="assets/images/logo-small.png" alt="LOTM">
+                </a>
+                <nav class="lotm-nav">
+                    <ul>
+                        <li><a href="#pathways">Pathways</a></li>
+                        <li><a href="#characters">Personajes</a></li>
+                        <li><a href="#mysteries">Misterios</a></li>
+                        <li><a href="#about">El Proyecto</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
         </header>
-        
-        <section class="hero">
-        </section>
-        
-        <section class="about">
-        </section>
-        
-        <section class="features">
-        </section>
-        
-        <footer>
-        </footer>
-    </main>
 
-    <script src="../src/main.js"></script>
+        <!-- Hero Section con efecto parallax -->
+        <section id="mainVisual" class="main-visual">
+            <div class="parallax-background"></div>
+            <div class="main-content">
+                <h1 class="main-title">Descender a las profundidades del misterio</h1>
+                <p class="main-subtitle">Un proyecto de diseño 4D explorando el universo de "Lord of the Mysteries"</p>
+                <button class="cta-button">Iniciar Ritual</button>
+            </div>
+        </section>
+
+        <!-- Sección de Pathways (como ejemplo de sección interactiva) -->
+        <section id="pathways" class="pathways-section">
+            <h2 class="section-title">Los Caminos del Poder</h2>
+            <div class="pathways-container">
+                <!-- Tarjetas interactivas para cada Pathway -->
+            </div>
+        </section>
+
+        <footer class="lotm-footer">
+            <div class="footer-content">
+                <p>Proyecto de Diseño 4D - © 2024</p>
+                <div class="social-links">
+                    <!-- Iconos redes sociales -->
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts (versión moderna sin jQuery) -->
+    <script src="../js/"></script>
+    <script src="../js/main.js"></script>
+    
+    <!-- Solo si necesitas Bootstrap (recomiendo evitarlo para más personalización) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 </body>
 </html>
