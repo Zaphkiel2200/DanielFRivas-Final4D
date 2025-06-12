@@ -5,32 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club del Tarot - Lord of the Mysteries</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-        <img src="https://res.cloudinary.com/di4ckwvxe/image/upload/v1748185137/Site-logo_upscayl_5x_ultramix_balanced_af6qg0.png" alt="Logo" class="logo">
-        <nav>
-            <a href="#characters">Personajes</a>
-            <a href="#">Libros</a>
-            <a href="#">Caminos</a>
-        </nav>
-    </header>
+    <lottie-player
+        id="introAnimation"
+        src="/assets/lottie/Comp 1.json 1.json"
+        background="transparent"
+        speed="1"
+        style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 1000;"
+        autoplay
+    ></lottie-player>
 
-    <section class="welcome-section">
-        <h1 class="welcome-text">Bienvenido al Club del Tarot</h1>
-        <div class="scroll-down">Desplázate hacia abajo</div>
-    </section>
+    <div id="mainContent" style="display: none;">
+        <header>
+            <img src="https://res.cloudinary.com/di4ckwvxe/image/upload/v1748185137/Site-logo_upscayl_5x_ultramix_balanced_af6qg0.png" alt="Logo" class="logo">
+            <nav>
+                <a href="#characters">Personajes</a>
+                <a href="#">Historia</a>
+                <a href="#">Sobre el Juego</a>
+            </nav>
+        </header>
 
-    <section id="characters" class="characters-section">
-        <h2 class="section-title">Miembros del Club</h2>
-        <div class="characters-grid" id="characters-container">
-        </div>
-    </section>
+        <main>
+            <section id="characters" class="characters-section">
+                <h2 class="section-title">Miembros del Club</h2>
+                <div class="characters-grid" id="characters-container"></div>
+            </section>
+        </main>
 
-    <footer>
-        <p>© 2023 Club del Tarot - Lord of the Mysteries. Todos los derechos reservados.</p>
-    </footer>
+        <footer>
+            <p>© 2023 Club del Tarot - Lord of the Mysteries. Todos los derechos reservados.</p>
+        </footer>
+    </div>
 
     <script src="scripts/main.js"></script>
 </body>

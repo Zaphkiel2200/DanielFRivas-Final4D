@@ -25,14 +25,14 @@
       "nombre": "Cattleya",
       "path": "The Hermit",
       "descripcion": "Cattleya is one of the 6 Pirate Kings. Her codename in the Tarot Club is The Hermit. And she is one of the ten Pillars of the Moses Ascetic Order. She once held the title Admiral of Stars. Her flagship is named The Future and she is the captain of The Stars Pirates.",
-      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_fondo": "https://res.cloudinary.com/di4ckwvxe/image/upload/v1749693371/Cattleya_hxnc2j.png",
       "imagen_tarjeta": "https://res.cloudinary.com/di4ckwvxe/image/upload/v1749690034/Cattleya_Official_umcsmu.webp"
     },
     {
       "nombre": "Emlyn White",
       "path": "Moon",
       "descripcion": "Emlyn White is a Sanguine Duke, a high-ranking deacon in the Harvest Church, and a member of the Tarot Club with the codename The Moon. He, as all Sanguines do, believes in the Moon, or Sanguine Ancestor Lilith. ",
-      "imagen_fondo": "https://res.cloudinary.com/di4ckwvxe/image/upload/v1749693371/Cattleya_hxnc2j.png",
+      "imagen_fondo": "https://res.cloudinary.com/di4ckwvxe/image/upload/v1749693361/Emlyn_bw0pal.png",
       "imagen_tarjeta": "https://res.cloudinary.com/di4ckwvxe/image/upload/v1749690034/Emlyn_White_Official_h6atsj.webp"
     },
     {
