@@ -1,58 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lord of the Mysteries</title>
-    <link rel="icon" type="image/png" href="assets/seqnoir-icon.png" />
-    <meta
-      name="description"
-      content="Un recorrido por el mundo de Lord of the Mysteries"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
-      defer
-    ></script>
-    <script
-      src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"
-      defer
-    ></script>
-    <script src="/js/main.js" defer></script>
-  </head>
-  <body>
-    <lottie-player
-      id="introLottie"
-      src="/lottie/Comp 1.json"
-      style="width: 100%; height: auto"
-    ></lottie-player>
-    <lottie-player
-      id="foolLottie"
-      src="/lottie/fool.json"
-      style="width: 100%; height: auto"
-    ></lottie-player>
-    <lottie-player
-      id="tarotLottie"
-      src="/lottie/tarot.json"
-      style="width: 100%; height: auto"
-    ></lottie-player>
-    <lottie-player
-      id="pathwaysLottie"
-      src="/lottie/pathways.json"
-      style="width: 100%; height: auto"
-    ></lottie-player>
-    <lottie-player
-      id="beyondersLottie"
-      src="/lottie/beyonders.json"
-      style="width: 100%; height: auto"
-    ></lottie-player>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club del Tarot - Lord of the Mysteries</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <img src="https://res.cloudinary.com/di4ckwvxe/image/upload/v1748185137/Site-logo_upscayl_5x_ultramix_balanced_af6qg0.png" alt="Logo" class="logo">
+        <nav>
+            <a href="#characters">Personajes</a>
+            <a href="#">Libros</a>
+            <a href="#">Caminos</a>
+        </nav>
+    </header>
+
+    <section class="welcome-section">
+        <h1 class="welcome-text">Bienvenido al Club del Tarot</h1>
+        <div class="scroll-down">Desplázate hacia abajo</div>
+    </section>
+
+    <section id="characters" class="characters-section">
+        <h2 class="section-title">Miembros del Club</h2>
+        <div class="characters-grid" id="characters-container">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 Club del Tarot - Lord of the Mysteries. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
 </html>
