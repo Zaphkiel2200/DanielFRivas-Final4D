@@ -1,0 +1,67 @@
+{
+  "personajes": [
+    {
+      "nombre": "Klein Moretti",
+      "path": "The Fool",
+      "descripcion": "He is the current owner of the Sefirah Castle. He is also the mysterious leader of the Tarot Club known as The Fool and a Transmigrator who comes from the modern era. From year 1352 of the Fifth Epoch, he became the God of the Church of the Fool.",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Xio Derecha",
+      "path": "Justiciar",
+      "descripcion": "Xio is very short, 152 cm in height. Xio has a great sense of justice. As a Beyonder of the Justiciar pathway, she has been busy administering justice around her. When persuading with words is not enough, she is willing to persuade those who are unjust physically.",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Leonard Michel",
+      "path": "Darkness",
+      "descripcion": "Leonard Mitchell is a captain of the Red Gloves, a division under the Church of the Evernight Goddess, in Backlund diocese. He is codenamed The Star in the Tarot Club.",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Cattleya",
+      "path": "The Hermit",
+      "descripcion": "Cattleya is one of the 6 Pirate Kings. Her codename in the Tarot Club is The Hermit. And she is one of the ten Pillars of the Moses Ascetic Order. She once held the title Admiral of Stars. Her flagship is named The Future and she is the captain of The Stars Pirates.",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Emlyn White",
+      "path": "Moon",
+      "descripcion": "Emlyn White is a Sanguine Duke, a high-ranking deacon in the Harvest Church, and a member of the Tarot Club with the codename The Moon. He, as all Sanguines do, believes in the Moon, or Sanguine Ancestor Lilith. ",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Fors Wall",
+      "path": "Door",
+      "descripcion": "She is a bestselling novelist, and good friends with Xio Derecha. Later, she became a disciple of Dorian Gray Abraham, a member of the Abraham Family. She is the Angel of Stars under The Fool.",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Derrick Berg",
+      "path": "Sun",
+      "descripcion": "Derrick Berg is a Beyonder of the Sun Pathway. Codename The Sun in the Tarot Club. He was a teenager that lives in the City of Silver which resides in the Forsaken Land of the Gods. ",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Alger Wilson",
+      "path": "Tyrant",
+      "descripcion": "As a mixed-blood with dark blue hair, he grew up with a lot of discrimination. He was selected to enter the headquarter of Church of the Lord of Storms. He is one of the first members of the Tarot Club, codenamed The Hanged Man.",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    },
+    {
+      "nombre": "Audrey Hall",
+      "path": "Visionary",
+      "descripcion": "Audrey Hall is a Beyonder of the Visionary Pathway. She is one of the first members of the Tarot Club, codenamed Justice, and later joins the Psychology Alchemists. Her companion partner is Susie. She is a believer in the Evernight Goddess.",
+      "imagen_fondo": "[URL o ruta de la imagen de fondo]",
+      "imagen_tarjeta": "[URL o ruta de la imagen de tarjeta]"
+    }
+  ]
+}
