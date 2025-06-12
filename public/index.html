@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <lottie-player
-        id="introAnimation"
-        src="/assets/lottie/Comp 1.json 1.json"
-        background="transparent"
-        speed="1"
-        style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: 1000;"
-        autoplay
-    ></lottie-player>
+<canvas id="canvas" width="300" height="300"></canvas>
+    <script type="module">
+      import { DotLottie } from "<https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm>";
+
+      new DotLottie({
+        autoplay: true,
+        loop: true,
+        canvas: document.getElementById("canvas"),
+        src: "<https://app.lottiefiles.com/share/ac52a8a9-c113-4af4-984d-218984798757>", // replace with your .lottie or .json file URL
+      });
+    </script>
 
     <div id="mainContent" style="display: none;">
         <header>
