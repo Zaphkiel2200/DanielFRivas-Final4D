@@ -1,45 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club del Tarot - Lord of the Mysteries</title>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
- <lottie-player
-        id="introAnimation"
-        src="/assets/lottie/Comp 1.json"
-        background="transparent"
-        speed="0.5"
-        autoplay
-        mode="scroll"
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LOTM</title>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/di4ckwvxe/image/upload/v1748185137/Site-logo_upscayl_5x_ultramix_balanced_af6qg0.png" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+      defer
+    ></script>
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"
+      defer
+    ></script>
+    <script src="/scripts/main.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <lottie-player
+      id="firstLottie"
+      src="/assets/lottie/Comp 1.json"
+      background="transparent"
+      speed="1"
+      autoplay
+      mode="scroll"
+    ></lottie-player>   
+    <lottie-player
+      id="secondLottie"
+      src="/assets/lottie/Comp 2.json"
+      style="width: 100%; height: auto"
     ></lottie-player>
-
-    <div id="mainContent" style="display: none;">
-        <header>
-            <img src="https://res.cloudinary.com/di4ckwvxe/image/upload/v1748185137/Site-logo_upscayl_5x_ultramix_balanced_af6qg0.png" alt="Logo" class="logo">
-            <nav>
-                <a href="#characters">Personajes</a>
-                <a href="#">Historia</a>
-                <a href="#">Sobre el Juego</a>
-            </nav>
-        </header>
-
-        <main>
-            <section id="characters" class="characters-section">
-                <h2 class="section-title">Miembros del Club</h2>
-                <div class="characters-grid" id="characters-container"></div>
-            </section>
-        </main>
-
-        <footer>
-            <p>© 2023 Club del Tarot - Lord of the Mysteries. Todos los derechos reservados.</p>
-        </footer>
-    </div>
-
-    <script src="scripts/main.js"></script>
-</body>
+    <lottie-player
+      id="thirdOneLottie"
+      src="/assets/lottie/Comp 3.json"
+      style="width: auto; height: auto"
+      ></lottie-player>
+    <lottie-player
+      id="thirdTwoLottie"
+      src="/assets/lottie/Comp 4.json"
+    ></lottie-player>
+    <lottie-player
+      id="fourthLottie"
+      src="/assets/lottie/Comp 5.json"
+      style="width: 100%; height: auto"
+    ></lottie-player>
+  </body>
 </html>
